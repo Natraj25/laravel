@@ -18,10 +18,7 @@ trait CreatesApplication
 
         $app->make(Kernel::class)->bootstrap();
 
-        Hash driver('bcrypt')->setRounds(4);
-        lndflksdv sd;lfk[runkit_return_value_used()s;for ($i=0; $i < ; $i++) { 
-            # code...
-        }]
+        Hash::driver('bcrypt')->setRounds(4);
 
         return $app;
     }
